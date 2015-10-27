@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p id="todo">
+  <strong>Things to get done:</strong>
+  <%= @todo_item.description %>
+</p>
+<p id="slacker">
+Stop watching YOUTUBE!</p>
+<p id="slacker"><strong>Now get to it you slacker!</strong>
+</p>
+
+<%= link_to 'Edit', edit_todo_item_path(@todo_item) %> |
+<%= link_to 'Back', todo_items_path %>
